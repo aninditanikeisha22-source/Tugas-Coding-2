@@ -1,0 +1,537 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direktori Profil Kelas X RPL 1</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Times New Roman", serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 25px 15px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border: 1px solid #ccc;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        header h1 {
+            color: #52647a;
+            font-size: 27px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #777;
+            font-size: 13px;
+            font-style: italic;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        .informasi {
+            border: 1px solid #ccc;
+            padding: 12px;
+            margin-bottom: 35px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid #aaa;
+            padding: 9px;
+            font-size: 14px;
+        }
+
+        td:first-child {
+            width: 30%;
+            font-weight: bold;
+        }
+
+        .anggota {
+            margin-bottom: 35px;
+        }
+
+        .anggota a {
+            color: #465c80;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #777;
+            margin: 30px 0;
+        }
+
+        .profil {
+            border: 1px solid #777;
+            margin-bottom: 60px;
+        }
+
+        .judul-profil {
+            background-color: #f1f1f1;
+            border-bottom: 1px solid #777;
+            padding: 12px;
+            font-weight: bold;
+            color: #52647a;
+        }
+
+        .isi-profil {
+            display: grid;
+            grid-template-columns: 40% 60%;
+        }
+
+        .foto-dan-audio {
+            padding: 25px;
+            border-right: 1px solid #777;
+        }
+
+        .foto {
+            width: 125px;
+            height: 160px;
+            border: 1px solid #777;
+            background-color: #e5e5e5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 25px;
+            color: #777;
+            overflow: hidden;
+        }
+
+        .foto img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .biodata {
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        .biodata ul {
+            padding-left: 20px;
+            margin-top: 0;
+        }
+
+        details {
+            margin-top: 20px;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .audio {
+            margin-top: 25px;
+        }
+
+        .audio audio {
+            width: 100%;
+            max-width: 230px;
+        }
+
+        .kembali {
+            text-align: right;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .kembali a {
+            color: #46658b;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            header h1 {
+                font-size: 21px;
+            }
+
+            .isi-profil {
+                grid-template-columns: 1fr;
+            }
+
+            .foto-dan-audio {
+                border-right: none;
+                border-bottom: 1px solid #777;
+            }
+
+            td {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body id="atas">
+
+<div class="container">
+
+    <header>
+        <h1>🎓 DIREKTORI PROFIL KELAS X RPL 1</h1>
+        <p>Buku Digitalisasi Digital & Galeri Profil Siswa Rekayasa Perangkat Lunak</p>
+    </header>
+
+    <section class="informasi">
+        <h3>📌 Informasi Umum Kelas</h3>
+
+        <table>
+            <tr>
+                <td>Wali Kelas</td>
+                <td>Bapak shobirin</td>
+            </tr>
+            <tr>
+                <td>Ketua Kelas</td>
+                <td>Muhammad bilal akbar</td>
+            </tr>
+            <tr>
+                <td>Jumlah Siswa</td>
+                <td>36 Siswa Aktif</td>
+            </tr>
+            <tr>
+                <td>Slogan Kelas</td>
+                <td><i>"Code Your Dreams, Build Your Future"</i> 🚀</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="anggota">
+        <h3>▣ Daftar Anggota Kelas:</h3>
+        <ol>
+            <li><a href="#siswa1">Nikeisha anindita(Anggota kelas)</a></li>
+            <li><a href="#siswa2">Nur yasmin arivina(Anggota kelas)</a></li>
+            <li><a href="#siswa3">Rihhadatul azzah(Bendahara 2)</a></li>
+            <li><a href="#siswa4">Naisilatul khumairo(Anggota kelas)</a></li>
+            <li><a href="#siswa5">Fatimah nur anggraini putri(wakil ketua kelas)</a></li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <!-- PROFIL SISWA PERTAMA -->
+    <section class="profil" id="siswa1">
+      
+        <div class="judul-profil">
+            👤 PROFIL SISWA #01 - NIKEISHA ANINDITA
+        </div>
+
+        <div class="isi-profil">
+
+            <div class="foto-dan-audio">
+
+                <div class="foto">
+                    <!-- Ganti dengan foto siswa -->
+                    <img src="foto keisha.jpg"
+                         alt="Foto Nikeisha"
+                         onerror="this.style.display='none';
+                         this.parentElement.innerHTML='Foto Nikeisha';">
+                </div>
+
+                <div class="audio">
+                    <strong>🎙 Suara Perkenalan:</strong>
+                    <p>
+                        <audio controls>
+                            <source src="keisha mp4.mp3" type="audio/mpeg">
+                            Browser tidak mendukung audio.
+                        </audio>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="biodata">
+                <ul>
+                    <li>NISN: 0119293954</li>
+                    <li>Tempat, Tgl Lahir: Kutai Kartanegara, 22 Juni 2011</li>
+                    <li>Hobi: Bermain Basket & Badminton</li>
+                    <li>Cita-cita: Programmer 💻</li>
+                    <li>Motto: <i>"Kegagalan adalah tangga keberhasilan."</i></li>
+                </ul>
+
+                <details>
+                    <summary>🏆 Lihat Riwayat & Keahlian</summary>
+                    <ul>
+                        <li>Keahlian: HTML dan CSS dasar</li>
+                        <li>Pengalaman: Membuat halaman web sederhana</li>
+                        <li>Prestasi: Juara 1 Lompat Jauh</li>
+                    </ul>
+                </details>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="kembali">
+        <a href="#atas">⬆ Kembali ke Atas</a>
+    </div>
+
+    <hr>
+
+    <!-- PROFIL SISWA KEDUA -->
+    <section class="profil" id="siswa2">
+
+        <div class="judul-profil">
+            👤 PROFIL SISWA #02 - NUR YASMIN ARIVINA
+        </div>
+
+        <div class="isi-profil">
+
+            <div class="foto-dan-audio">
+
+                <div class="foto">
+                    <!-- Ganti dengan foto siswa -->
+                    <img src="foto vina.jpg"
+                         alt="Foto vina"
+                         onerror="this.style.display='none';
+                         this.parentElement.innerHTML='Foto Siti';">
+                </div>
+
+                <div class="audio">
+                    <strong>🎙 Suara Perkenalan:</strong>
+                    <p>
+                        <audio controls>
+                            <source src="vina mp4.mp3" type="audio/mpeg">
+                            Browser tidak mendukung audio.
+                        </audio>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="biodata">
+                <ul>
+                    <li>NISN: 0101062621</li>
+                    <li>Tempat, Tgl Lahir: Pasuruan,21 mei 2010</li>
+                    <li>Hobi: me time</li>
+                    <li>Cita-cita: slow living</li>
+                    <li>Motto: <i>"Allah tidak membebani seseorang 
+                        melainkan sesuai dengan kesanggupan."</i></li>
+                </ul>
+
+                <details>
+                    <summary>🏆 Lihat Riwayat & Keahlian</summary>
+                    <ul>
+                        <li>Keahlian: memahami dengan cepat</li>
+                        <li>Pengalaman: Membuat desain antarmuka sederhana</li>
+                        <li>Prestasi: juara 1 basket</li>
+                    </ul>
+                </details>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="kembali">
+        <a href="#atas">⬆ Kembali ke Atas</a>
+    </div>
+
+    <!-- PROFIL SISWA KETIGA -->
+    <section class="profil" id="siswa2">
+
+        <div class="judul-profil">
+            👤 PROFIL SISWA #03 - RIHADATUL AZZAH
+        </div>
+
+        <div class="isi-profil">
+
+            <div class="foto-dan-audio">
+
+                <div class="foto">
+                    <!-- Ganti dengan foto siswa -->
+                    <img src="foto azzah.jpg"
+                         alt="Foto azzah"
+                         onerror="this.style.display='none';
+                         this.parentElement.innerHTML='Foto Siti';">
+                </div>
+
+                <div class="audio">
+                    <strong>🎙 Suara Perkenalan:</strong>
+                    <p>
+                        <audio controls>
+                            <source src="azzah mp4.mp3" type="audio/mpeg">
+                            Browser tidak mendukung audio.
+                        </audio>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="biodata">
+                <ul>
+                    <li>NISN: 0102181174</li>
+                    <li>Tempat, Tgl Lahir: Pasuruan,08 Oktober 2010</li>
+                    <li>Hobi: Mendengarkan musik</li>
+                    <li>Cita-cita: menjadi orang sukses</li>
+                    <li>Motto: <i>"jadiah lebih baik dari
+                         dirimu yang kemarin."</i></li>
+                </ul>
+
+                <details>
+                    <summary>🏆 Lihat Riwayat & Keahlian</summary>
+                    <ul>
+                        <li>Keahlian: HTML DAN CSS Dasar</li>
+                        <li>Pengalaman: Membuat desain antarmuka sederhana</li>
+                        <li>Prestasi: juara 1 Badminton</li>
+                    </ul>
+                </details>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="kembali">
+        <a href="#atas">⬆ Kembali ke Atas</a>
+    </div>
+
+
+
+     <hr>
+
+    <!-- PROFIL SISWA KEEMPAT -->
+    <section class="profil" id="siswa4">
+
+        <div class="judul-profil">
+            👤 PROFIL SISWA #04 - NUR YASMIN ARIVINA
+        </div>
+
+        <div class="isi-profil">
+
+            <div class="foto-dan-audio">
+
+                <div class="foto">
+                    <!-- Ganti dengan foto siswa -->
+                    <img src="foto naisila.jpg"
+                         alt="Foto naisila"
+                         onerror="this.style.display='none';
+                         this.parentElement.innerHTML='Foto naisila';">
+                </div>
+
+                <div class="audio">
+                    <strong>🎙 Suara Perkenalan:</strong>
+                    <p>
+                        <audio controls>
+                            <source src="naisila mp4.mp3" type="audio/mpeg">
+                            Browser tidak mendukung audio.
+                        </audio>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="biodata">
+                <ul>
+                    <li>NISN: 0109714817</li>
+                    <li>Tempat, Tgl Lahir: Pasuruan,01 mei 2010</li>
+                    <li>Hobi: bersepeda</li>
+                    <li>Cita-cita: pengusaha</li>
+                    <li>Motto: <i>"jadilah manusia yang jadi."</i></li>
+                </ul>
+
+                <details>
+                    <summary>🏆 Lihat Riwayat & Keahlian</summary>
+                    <ul>
+                        <li>Keahlian: HTML dan CSS dasar</li>
+                        <li>Pengalaman: Membuat desain antarmuka sederhana</li>
+                        <li>Prestasi: juara 1 matematika</li>
+                    </ul>
+                </details>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="kembali">
+        <a href="#atas">⬆ Kembali ke Atas</a>
+    </div>
+
+      <hr>
+
+    <!-- PROFIL SISWA KELIMA -->
+    <section class="profil" id="siswa5">
+
+        <div class="judul-profil">
+            👤 PROFIL SISWA #05 - FATMAH NUR ANGGRAINI PUTRI
+        </div>
+
+        <div class="isi-profil">
+
+            <div class="foto-dan-audio">
+
+                <div class="foto">
+                    <!-- Ganti dengan foto siswa -->
+                    <img src="foto putri.jpg"
+                         alt="Foto putri"
+                         onerror="this.style.display='none';
+                         this.parentElement.innerHTML='Foto Siti';">
+                </div>
+
+                <div class="audio">
+                    <strong>🎙 Suara Perkenalan:</strong>
+                    <p>
+                        <audio controls>
+                            <source src="putri mp4.mp3" type="audio/mpeg">
+                            Browser tidak mendukung audio.
+                        </audio>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="biodata">
+                <ul>
+                    <li>NISN: 0106899550 </li>
+                    <li>Tempat, Tgl Lahir: Pasuruan,7 SEPTEMBER 2010/li>
+                    <li>Hobi: menari </li>
+                    <li>Cita-cita: arsitek </li>
+                    <li>Motto: <i>"kita tidak harus menjadi pemeran utama di hidup siapapun ."</i></li>
+                </ul>
+
+                <details>
+                    <summary>🏆 Lihat Riwayat & Keahlian</summary>
+                    <ul>
+                        <li>Keahlian: memahami dengan cepat</li>
+                        <li>Pengalaman: Membuat desain antarmuka sederhana</li>
+                        <li>Prestasi: juara 1 basket</li>
+                    </ul>
+                </details>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="kembali">
+        <a href="#atas">⬆ Kembali ke Atas</a>
+    </div>
+</body>
+</html>

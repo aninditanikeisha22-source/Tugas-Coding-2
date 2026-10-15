@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Biodataku</h1>
+<hr>
+
+<p>Nama : <b>Nikeisha Anindita</b></p>
+<p>Alamat : <i>leper indah</i></p>
+<p>No. HP : <u>081332626560</u></p>
+<p>Tinggi Badan : 164<sup>cm</sup></p>
+<p>Suhu Badan : 26<sup>o</sup>C</p>
+
+<br>
+
+<p>Sosial Media :
+<a href="https://www.facebook.com/share/1EXze3dTGj/">Link Facebook</a>
+</p>
+
+<hr>
+
+<p>
+Foto :<br><img src="https://semarsoft.com/wp-content/uploads/2026/08/Redmi-atau-Realme-terbaik-dengan-harga-2-jutaan_1.jpg"
+     alt="Ini Fotoku"
+     width="300">
+</p>
+
+<p><strong>Daftar Keluarga</strong></p>
+
+<ol>
+    <li>Ayah : Suratijan</li>
+    <li>Ibu : Ely zuroidah</li>
+    <li>Saudari : Amelia</li>
+    <li>Saudara : Raihan</li>
+</ol>
+
+</body>
+</html>
